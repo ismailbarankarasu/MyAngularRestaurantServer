@@ -1,0 +1,6 @@
+@MyAngularRestaurantServer.Api_HostAddress = http://localhost:5165
+
+GET {{MyAngularRestaurantServer.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "r0+pPVPUEGgJDr67HmNoHfpOFYqaz1mNFLBCf0MsImI=",
+  "Source": "MyAngularRestaurantServer.Api",
+  "BasePath": "_content/MyAngularRestaurantServer.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
