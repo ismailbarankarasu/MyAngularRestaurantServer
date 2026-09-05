@@ -46,6 +46,10 @@ namespace MyAngularRestaurantServer.Api.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutMenu(int id, MenuDto menuDto)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
             var menu = new Menu
             {
                 Id = menuDto.Id,
@@ -85,6 +89,10 @@ namespace MyAngularRestaurantServer.Api.Controllers
         [HttpPost]
         public async Task<ActionResult<Menu>> PostMenu(MenuDto menuDto)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
             _context.Menus.Add(new Menu
             {
                 Id = menuDto.Id,
