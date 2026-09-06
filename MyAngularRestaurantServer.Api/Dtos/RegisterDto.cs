@@ -1,0 +1,9 @@
+﻿namespace MyAngularRestaurantServer.Api.Dtos
+{
+    public class RegisterDto
+    {
+        public string NameSurname { get; set; } = null!;
+        public string Email { get; set; } = null!;
+        public string Password { get; set; } = null!;
+    }
+}
